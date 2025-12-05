@@ -8,27 +8,27 @@ const page = () => {
 
     const list = [
         {
-            image: "./images/Vermicompost/Vermicompost.jpg",
+            image: "./images/Vermicompost/Vermicompost.webp",
             title: "Vermicompost",
             description: "High-quality organic fertilizer rich in nutrients. Enhances soil fertility, boosts plant growth, and improves yield naturally."
         },
         {
-            image: "./images/Vermicompost/Cocopeat.jpg",
+            image: "./images/Vermicompost/Cocopeat.webp",
             title: "Cocopeat",
             description: "Eco-friendly growing medium made from coconut husk fiber. Retains moisture, improves aeration, and promotes healthy root growth."
         },
         {
-            image: "./images/Vermicompost/Husk.jpg",
+            image: "./images/Vermicompost/Husk.webp",
             title: "Husk",
             description: "Natural soil cover that retains moisture and prevents weed growth. Perfect for nurseries and large plantations."
         },
         {
-            image: "./images/Vermicompost/Paddy-Straw.jpg",
+            image: "./images/Vermicompost/Paddy-Straw.webp",
             title: " Paddy Straw",
             description: "Used for mulching and protecting young plants from heat and evaporation. Ideal for organic farms and nurseries."
         },
         {
-            image: "./images/Vermicompost/Support-Sticks.jpg",
+            image: "./images/Vermicompost/Support-Sticks.webp",
             title: "Support Sticks",
             description: "Durable support sticks for saplings, climbers, and delicate plants. Helps maintain upright growth during early stages."
         },
@@ -38,17 +38,17 @@ const page = () => {
             description: "Natural pest repellent and organic manure. Improves soil structure and protects plant roots from fungal infections."
         },
         {
-            image: "./images/Vermicompost/Cow-Dung.jpg",
+            image: "./images/Vermicompost/Cow-Dung.webp",
             title: "Cow Dung",
             description: "Fully decomposed organic manure that enriches soil with essential nutrients."
         },
         {
-            image: "./images/Vermicompost/Green-Grass.jpg",
+            image: "./images/Vermicompost/Green-Grass.webp",
             title: "Green Grass",
             description: "Used for landscaping, mulching, and livestock feed."
         },
         {
-            image: "./images/Vermicompost/Leaf-Compost.jpg",
+            image: "./images/Vermicompost/Leaf-Compost.webp",
             title: "Leaf Compost",
             description: "Compost made from decomposed leaves — improves soil texture, water retention, and organic content."
         }
@@ -56,7 +56,7 @@ const page = () => {
     return (
         <>
             <Navbar />
-            <Hero heading={'Vermicompost'} image={'/images/Vermicompost-banner.jpg'} desc={desc} />
+            <Hero heading={'Vermicompost'} image={'/images/Vermicompost-banner.webp'} desc={desc} />
             <div style={{ maxWidth: '1200px', margin: '50px auto' }}>
                 <p>
                     We offer all kinds of tree saplings — carefully grown and ready for plantation.

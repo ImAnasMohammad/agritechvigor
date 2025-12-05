@@ -13,42 +13,42 @@ const page = () => {
             description: "Used for small planting tasks, loosening soil in pots or beds, and removing weeds with precision."
         },
         {
-            image: "./images/tools/Transplanter.jpg",
+            image: "./images/tools/Transplanter.webp",
             title: "Transplanter",
             description: "Helps shift seedlings and saplings safely from nursery trays to the field without damaging roots."
         },
         {
-            image: "./images/tools/knife.jpg",
+            image: "./images/tools/knife.webp",
             title: "Weeder",
             description: "Removes unwanted weeds efficiently while protecting nearby crops from damage."
         },
         {
-            image: "./images/tools/Spade.jpg",
+            image: "./images/tools/Spade.webp",
             title: "Pruning Shears / Secateurs",
             description: "Used for cutting stems, trimming branches, and maintaining plant shape and health."
         },
         {
-            image: "./images/tools/knife.jpg",
+            image: "./images/tools/knife.webp",
             title: "Garden Knife",
             description: "A multipurpose tool used for pruning, harvesting fruits or vegetables, and cutting plant material."
         },
         {
-            image: "./images/tools/Spade.jpg",
+            image: "./images/tools/Spade.webp",
             title: "Spade & Shovel Sets",
             description: "Essential for digging soil, mixing compost, making planting pits, and shifting materials."
         },
         {
-            image: "./images/tools/rake.jpg",
+            image: "./images/tools/rake.webp",
             title: "Rake",
             description: "Used to level soil, break clods, and collect dry leaves or plant debris."
         },
         {
-            image: "./images/tools.jpg",
+            image: "./images/tools.webp",
             title: "Hoe / Khurpi",
             description: "Ideal for breaking hard soil, shaping beds, and removing weeds around plants."
         },
         {
-            image: "./images/tools/soil-beaker.jpg",
+            image: "./images/tools/soil-beaker.webp",
             title: "Pickaxe",
             description: "Used to break and loosen tough or rocky soil for deeper cultivation."
         },
@@ -61,7 +61,7 @@ const page = () => {
     return (
         <>
             <Navbar />
-            <Hero heading={'Tools'} image={'/images/tools-banner.jpg'} desc={desc} />
+            <Hero heading={'Tools'} image={'/images/tools-banner.webp'} desc={desc} />
             <div style={{ maxWidth: '1200px', margin: '50px auto' }}>
                 <p>
                     We offer all kinds of tree saplings — carefully grown and ready for plantation.

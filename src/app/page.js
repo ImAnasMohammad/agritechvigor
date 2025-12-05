@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative h-[500px] md:h-[600px] bg-cover bg-center" 
              style={{
-               backgroundImage: "url(./images/hero.jpg)"
+               backgroundImage: "url(./images/hero.webp)"
              }}>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-amber-50 bg-opacity-95 rounded-lg shadow-2xl p-8 md:p-12 max-w-3xl mx-4 text-center">
@@ -74,7 +74,7 @@ const ServicesSection = () => {
             </div>
           </div>
           <div className="h-64 md:h-96 lg:h-full rounded-lg overflow-hidden shadow-xl">
-            <img src={'./images/services.jpg'} style={{width:'100%',height:'100%',objectFit:'contain'}}/>
+            <img src={'./images/services.webp'} style={{width:'100%',height:'100%',objectFit:'contain'}}/>
           </div>
         </div>
       </div>
@@ -86,19 +86,19 @@ const ServicesSection = () => {
 export default function AgritechVigor() {
   const products = [
     {
-      image: "./images/saplings.jpg",
+      image: "./images/saplings.webp",
       title: "Saplings",
       href:'saplings',
       description: "A wide variety of healthy saplings for farms, plantations, and readside greenery"
     },
     {
-      image: "./images/Vermicompost.jpg",
+      image: "./images/Vermicompost.webp",
       title: "Vermicompost",
       href:'vermicompost',
       description: "Organic compost mage from earthworms, ideal for enriching soil naturally"
     },
     {
-      image: "./images/tools.jpg",
+      image: "./images/tools.webp",
       title: "Tools",
       href:'tools',
       description: "Durable and ergonomic gardening tools for efficient planting and maintenance"

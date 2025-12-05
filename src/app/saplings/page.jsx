@@ -8,7 +8,7 @@ const page = () => {
 
     const list = [
         {
-            image: "./images/saplings/Shade-Trees.jpg",
+            image: "./images/saplings/Shade-Trees.webp",
             title: "Shade Trees",
             description: "Neem, Gulmohar, Banyan, Rain Tree, Pongamia, etc."
         },
@@ -18,17 +18,17 @@ const page = () => {
             description: "Mango, Guava, Lemon, Jamun, Papaya, etc."
         },
         {
-            image: "./images/saplings/Forestry.jpg",
+            image: "./images/saplings/Forestry.webp",
             title: "Forestry & Native Trees",
             description: " Teak, Bamboo, Mahogany, Subabul, etc."
         },
         {
-            image: "./images/saplings/Ornamental-tree.jpg",
+            image: "./images/saplings/Ornamental-tree.webp",
             title: "Ornamental & Avenue Trees",
             description: " Cassia, Ashoka, Tabebuia, Bougainvillea, etc."
         },
         {
-            image: "./images/saplings/road-side-trees.jpg",
+            image: "./images/saplings/road-side-trees.webp",
             title: "Roadside Trees",
             description: " Neem, Rain Tree, Gulmohar, Pongamia, and other hardy species suited for highways and public areas."
         }
@@ -36,7 +36,7 @@ const page = () => {
     return (
         <>
             <Navbar />
-            <Hero heading={'Saplings'} image={'/images/saplings.jpg'} desc={desc} />
+            <Hero heading={'Saplings'} image={'/images/saplings.webp'} desc={desc} />
             <div style={{ maxWidth: '1200px', margin: '50px auto' }}>
                 <p>
                     We offer all kinds of tree saplings — carefully grown and ready for plantation.
