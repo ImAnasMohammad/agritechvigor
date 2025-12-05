@@ -3,10 +3,24 @@ import React from 'react';
 import { Sprout, FileText, Truck, Leaf, Menu, X } from 'lucide-react';
 
 import Navbar from '@/Components/Navbar';
-import Cards from '@/Components/Cards';
-import Image from 'next/image';
-import AboutUs from '@/Components/About';
-import ContactUs from '@/Components/ContactUs';
+import dynamic from 'next/dynamic';
+
+const Cards = dynamic(
+  () => import("@/Components/Cards"),
+  { loading: () => <p>Loading...</p> }
+);
+// import Cards from '@/Components/Cards';
+
+const AboutUs = dynamic(
+  () => import("@/Components/About"),
+  { loading: () => <p>Loading...</p> }
+);
+
+const ContactUs = dynamic(
+  () => import("@/Components/ContactUs"),
+  { loading: () => <p>Loading...</p> }
+);
+// import ContactUs from '@/Components/ContactUs';
 import Link from 'next/link';
 
 // Logo Component
@@ -14,10 +28,10 @@ import Link from 'next/link';
 // Hero Component
 const Hero = () => {
   return (
-    <section id="home" className="relative h-[500px] md:h-[600px] bg-cover bg-center" 
-             style={{
-               backgroundImage: "url(./images/hero.webp)"
-             }}>
+    <section id="home" className="relative h-[500px] md:h-[600px] bg-cover bg-center"
+      style={{
+        backgroundImage: "url(./images/hero.webp)"
+      }}>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-amber-50 bg-opacity-95 rounded-lg shadow-2xl p-8 md:p-12 max-w-3xl mx-4 text-center">
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-800 mb-4">
@@ -74,7 +88,7 @@ const ServicesSection = () => {
             </div>
           </div>
           <div className="h-64 md:h-96 lg:h-full rounded-lg overflow-hidden shadow-xl">
-            <img src={'./images/services.webp'} style={{width:'100%',height:'100%',objectFit:'contain'}}/>
+            <img src={'./images/services.webp'} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
           </div>
         </div>
       </div>
@@ -88,19 +102,19 @@ export default function AgritechVigor() {
     {
       image: "./images/saplings.webp",
       title: "Saplings",
-      href:'saplings',
+      href: 'saplings',
       description: "A wide variety of healthy saplings for farms, plantations, and readside greenery"
     },
     {
       image: "./images/Vermicompost.webp",
       title: "Vermicompost",
-      href:'vermicompost',
+      href: 'vermicompost',
       description: "Organic compost mage from earthworms, ideal for enriching soil naturally"
     },
     {
       image: "./images/tools.webp",
       title: "Tools",
-      href:'tools',
+      href: 'tools',
       description: "Durable and ergonomic gardening tools for efficient planting and maintenance"
     }
   ];
@@ -112,8 +126,8 @@ export default function AgritechVigor() {
         <Cards heading={'Our Products'} list={products} />
       </section>
       <ServicesSection />
-      <AboutUs/>
-      <ContactUs/>
+      <AboutUs />
+      <ContactUs />
     </div>
   );
 }
