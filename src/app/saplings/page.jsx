@@ -13,7 +13,7 @@ const page = () => {
             description: "Neem, Gulmohar, Banyan, Rain Tree, Pongamia, etc."
         },
         {
-            image: "./images/saplings/fruit.png",
+            image: "./images/saplings/fruit.webp",
             title: "Fruit Trees",
             description: "Mango, Guava, Lemon, Jamun, Papaya, etc."
         },

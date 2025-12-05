@@ -8,7 +8,7 @@ const page = () => {
 
     const list = [
         {
-            image: "./images/tools/Fork.png",
+            image: "./images/tools/Fork.webp",
             title: "Hand Trowel & Fork",
             description: "Used for small planting tasks, loosening soil in pots or beds, and removing weeds with precision."
         },

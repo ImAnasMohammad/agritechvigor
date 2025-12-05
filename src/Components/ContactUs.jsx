@@ -21,7 +21,7 @@ export default function ContactUs() {
 
                         <ul className="space-y-3 text-gray-700">
                             <li>
-                                📍 <span className="font-medium">Address:</span> Hyderabad, Telengana
+                                📍 <span className="font-medium">Address:</span> (V) Shamshallapur, (M) Nyalkal, (D) Sangareddy,502251
                             </li>
                             {/* <li>
                                 📞 <span className="font-medium">Phone:</span> +91 

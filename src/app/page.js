@@ -20,6 +20,11 @@ const ContactUs = dynamic(
   () => import("@/Components/ContactUs"),
   { loading: () => <p>Loading...</p> }
 );
+
+const Services = dynamic(
+  () => import("@/Components/Services"),
+  { loading: () => <p>Loading...</p> }
+);
 // import ContactUs from '@/Components/ContactUs';
 import Link from 'next/link';
 
@@ -125,7 +130,8 @@ export default function AgritechVigor() {
       <section id='products'>
         <Cards heading={'Our Products'} list={products} />
       </section>
-      <ServicesSection />
+      {/* <ServicesSection /> */}
+      <Services/>
       <AboutUs />
       <ContactUs />
     </div>
